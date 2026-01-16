@@ -6,7 +6,9 @@
   // "width": 1280, // Waybar width
   "spacing": 0, // Gaps between modules (4px)
   // Choose the order of the modules
+  // "margin-top": 4,
   "margin-top": 14,
+  "margin-bottom": -2,
   "margin-left": 10,
   "margin-right": 9,
   "modules-left": ["hyprland/workspaces", "hyprland/mode", "hyprland/scratchpad", "custom/media"],
@@ -168,7 +170,8 @@
   },
   "cpu": {
     "format": "{usage}% ",
-    "tooltip": false
+    "tooltip": false,
+    "on-click": "kitty --title btop -e btop"
   },
   "memory": {
     "format": "{}% "
@@ -223,16 +226,16 @@
     // "format-linked": "{ifname} (No IP) ",
     // "format-disconnected": "Disconnected ⚠",
     // "format-alt": "{ifname}: {ipaddr}/{cidr}",
-    "on-click": "kitty --title bluetuith -e bluetuith"
+    "on-click": "blueman-manager"
   },
   "pulseaudio": {
     "scroll-step": 10, // %, can be a float
-    "format": "{volume}% {icon} {format_source}",
-    "format-bluetooth": "{volume}% {icon} {format_source}",
-    "format-bluetooth-muted": " {icon} {format_source}",
-    "format-muted": " {format_source}",
-    "format-source": "{volume}% ",
-    "format-source-muted": "",
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-bluetooth-muted": " {icon}",
+    "format-muted": "",
+    "format-source": "",
+    "format-source-muted": "",
     "format-icons": {
       "headphone": "",
       "hands-free": "",

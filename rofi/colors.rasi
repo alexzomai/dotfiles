@@ -12,8 +12,8 @@
     secondary-fixed-dim: #b1cbce;
     on-secondary: #1b3437;
     on-secondary-fixed: #051f21;
-    on-secondary-fixed-variant: #324b4d;
-    secondary-container: #324b4d;
+    on-secondary-fixed-variant: #8b73a8ff;
+    secondary-container: #8b73a8ff;
     on-secondary-container: #cce8ea;
     tertiary: #b7c7ea;
     tertiary-fixed: #d7e2ff;
@@ -23,7 +23,7 @@
     on-tertiary-fixed-variant: #384764;
     tertiary-container: #384764;
     on-tertiary-container: #d7e2ff;
-    error: #ffb4ab;
+    error: #8b73a8ff;
     on-error: #690005;
     error-container: #93000a;
     on-error-container: #ffdad6;
